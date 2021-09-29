@@ -1,0 +1,296 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/AdobeFnt22.lst
+FileLength:7686
+FileModTime:643632528
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HOKIME3Bold
+FamilyName:HOKIME 3
+StyleName:Bold
+MenuName:HOKIME 3
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:HOKIME 3 Bold
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/HOKIME3-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:370988
+FileModTime:634720488
+NameArray:0,Mac,4,HOKIME 3 Bold
+NameArray:0,Win,1,HOKIME 3
+NameArray:0,Win,16,HOKIME 3
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HOKIME3Light
+FamilyName:HOKIME 3
+StyleName:Light
+MenuName:HOKIME 3 Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:HOKIME 3 Light
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/HOKIME3-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:379184
+FileModTime:634720488
+NameArray:0,Mac,4,HOKIME 3 Light
+NameArray:0,Win,1,HOKIME 3 Light
+NameArray:0,Win,16,HOKIME 3
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HOKIME3Regular
+FamilyName:HOKIME 3
+StyleName:Regular
+MenuName:HOKIME 3
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:HOKIME 3
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/HOKIME3.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:383516
+FileModTime:634720488
+NameArray:0,Mac,4,HOKIME 3
+NameArray:0,Win,1,HOKIME 3
+NameArray:0,Win,16,HOKIME 3
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Facundo-Black
+FamilyName:Facundo
+StyleName:Black
+MenuName:Facundo Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Facundo Black
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/Latinotype - Facundo Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:104148
+FileModTime:625571554
+NameArray:0,Mac,4,Facundo Black
+NameArray:0,Win,1,Facundo Black
+NameArray:0,Win,16,Facundo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Facundo-Regular
+FamilyName:Facundo
+StyleName:Regular
+MenuName:Facundo
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Facundo Regular
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/Latinotype - Facundo Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:106628
+FileModTime:625571554
+NameArray:0,Mac,4,Facundo Regular
+NameArray:0,Win,1,Facundo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Facundo-SemiBold
+FamilyName:Facundo
+StyleName:SemiBold
+MenuName:Facundo SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Facundo SemiBold
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/Latinotype - Facundo SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:110628
+FileModTime:625571554
+NameArray:0,Mac,4,Facundo SemiBold
+NameArray:0,Win,1,Facundo SemiBold
+NameArray:0,Win,16,Facundo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TTNorms-Bold
+FamilyName:TT Norms
+StyleName:Bold
+MenuName:TT Norms Bold
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:TT Norms Bold
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/TTNorms-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152792
+FileModTime:517815122
+NameArray:0,Mac,4,TT Norms Bold
+NameArray:0,Win,1,TT Norms Bold
+NameArray:0,Win,16,TT Norms
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TTNorms-ExtraBold
+FamilyName:TT Norms
+StyleName:ExtraBold
+MenuName:TT Norms ExtraBold
+StyleBits:2
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:TT Norms ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/TTNorms-ExtraBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:150760
+FileModTime:517814932
+NameArray:0,Mac,4,TT Norms ExtraBold
+NameArray:0,Win,1,TT Norms ExtraBold
+NameArray:0,Win,16,TT Norms
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TTNorms-Light
+FamilyName:TT Norms
+StyleName:Light
+MenuName:TT Norms Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:TT Norms Light
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/TTNorms-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158324
+FileModTime:517814222
+NameArray:0,Mac,4,TT Norms Light
+NameArray:0,Win,1,TT Norms Light
+NameArray:0,Win,16,TT Norms
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TTNorms-Medium
+FamilyName:TT Norms
+StyleName:Medium
+MenuName:TT Norms Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:TT Norms Medium
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/TTNorms-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153672
+FileModTime:517814106
+NameArray:0,Mac,4,TT Norms Medium
+NameArray:0,Win,1,TT Norms Medium
+NameArray:0,Win,16,TT Norms
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TTNorms-Regular
+FamilyName:TT Norms
+StyleName:Regular
+MenuName:TT Norms Regular
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:TT Norms Regular
+WritingScript:Roman
+OutlineFileName:/Users/grafik8/Dropbox/Familienbereich/Neustadtsgüterbahnhof/Konzept/AH/Güterbahnhof/Layout/alt/Präsentation_Güterbahnhof_210512_AH Ordner/Document fonts/TTNorms-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155520
+FileModTime:517815318
+NameArray:0,Mac,4,TT Norms Regular
+NameArray:0,Win,1,TT Norms Regular
+NameArray:0,Win,16,TT Norms
+%EndFont
+

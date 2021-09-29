@@ -1,0 +1,1539 @@
+@import 'form';
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Facundo-black";
+    src: url("../Fonts/Latinotype-Facundo-Black.otf") format("opentype");
+
+}
+
+@font-face {
+    font-family: "Facundo-regular";
+    src: url("../Fonts/Latinotype\ Facundo-Regular.otf") format("opentype");
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Facundo-semibold";
+    src: url("../Fonts/Latinotype\ Facundo-SemiBold.otf") format("opentype");
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Hokime3-light";
+    src: url("/Fonts/HOKIME3-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Hokime3-Bold";
+    src: url("/Fonts/HOKIME3-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Hokime3";
+    src: url("/Fonts/HOKIME3.otf") format("opentype");
+
+}
+
+
+
+
+// Header bloc
+
+.banner {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    width: 100%;
+
+    & h1 {
+        position: absolute;
+        top: 80%;
+        right: 28%;
+        color: white;
+        font-family: "Mark Pro bold", sans-serif;
+        font-size: 2.8em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+}
+
+.navbar-brand img {
+    width: 279px;
+    position: absolute;
+    right: 15rem;
+    top: 4rem;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+
+
+header {
+    background-color: black;
+    height: 800px;
+
+}
+
+.tick {
+    font-family: "Facundo-black";
+    font-size: 8vmin;
+}
+
+.container-countdown {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.countdown {
+    margin-top: 2rem;
+
+    & h2 {
+        text-transform: uppercase;
+        font-family: "Facundo-black";
+        letter-spacing: 3px;
+        line-height: 1.4;
+
+    }
+
+}
+
+.tick-group {
+    margin: 0 24px;
+}
+
+.tick-label {
+    font-size: 1.4vmin;
+    text-transform: uppercase;
+    display: block !important;
+    text-align: center;
+    padding: 3.2rem 0 0;
+    font-family: "Facundo-black";
+    letter-spacing: 3px;
+
+}
+
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* section produktiv lebendig */
+
+.produktive {
+    background-color: black;
+    height: 500px;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    height: 1040px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-size: contain;
+    width: 100%;
+
+    & h2 {
+        position: absolute;
+        font-family: "Latinotype";
+        //   top: 50%;
+        bottom: -5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+
+
+}
+
+/* Texte Bloc */
+
+.text_description {
+    font-family: "Facundo-regular";
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+
+    strong {
+        font-family: "Facundo-black";
+
+    }
+}
+
+
+
+// mietinteresse 
+.bloc-mietinteresse {
+    h1 {
+        font-family: "Facundo-black";
+        font-size: 5em;
+        text-transform: uppercase;
+        line-height: 1.4;
+        letter-spacing: 3px;
+
+    }
+
+    .flex-container-newsletter {
+        & p {
+            font-size: 2em;
+            text-transform: uppercase;
+            font-family: "Facundo-black";
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.mietinteresse {
+
+
+    & .form-v10-content {
+        width: 785px;
+        width: 774px;
+    }
+
+    & textarea {
+        margin-top: 1rem !important;
+        border: 0 !important;
+        border-bottom: 1px solid black !important;
+        border-top: 1px solid black !important;
+        outline: none !important;
+        height: 91px;
+        margin-left: 3.7rem;
+        width: 700px;
+    }
+
+    .form-textaera label {
+        margin-left: 4rem;
+        font-family: "Facundo-semibold";
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .form-v10-content .form-detail .form-checkbox {
+        margin-top: 0;
+        padding: 0 ;
+        position: relative;
+        top: -1.7rem;
+        left: 3.5rem;
+    }
+
+    .form-v10-content .form-detail .form-checkbox .checkmark {
+
+        left: 60px;
+
+    }
+
+    .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 18px;
+        width: 700px;
+        & br {
+            display: none!important;
+        }
+
+    }
+    p {
+        
+        margin-bottom: 0!important; 
+    }
+
+
+    input[type=submit] {
+        border: none !important;
+    }
+
+    .mieten {
+        transform: translateY(24px);
+    }
+
+
+
+}
+
+.flex-form-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+
+.image-einladung img {
+    height: 700px;
+     display: block;
+   
+    // height: 834px;
+    // object-fit: cover;
+
+
+}
+
+
+//  formular-newsletter
+
+.formular-newsletter {
+
+    background-color: black;
+
+    h1 {
+        color: white;
+        font-family: "Facundo-black";
+        font-size: 5em;
+        text-transform: uppercase;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+
+    p {
+        font-size: 1.24em;
+        letter-spacing: 3px;
+        font-family: "Facundo-regular";
+        color: white;
+    }
+
+    .form-row-la {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+
+    }
+
+    .form-v10-content .form-detail .form-left .register {
+        background: none;
+        color: #f0f0f0;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        margin-left: 0;
+        transform: translateY(22px);
+    }
+
+    .form-v10-content {
+
+        margin: 5rem auto;
+
+    }
+    .pflichtfelder {
+        margin-top: 0;
+       
+        transform: translate(-67px, 19px);
+    }
+
+   
+
+}
+
+ a {
+    color: black !important;
+     text-decoration: underline;
+ }
+
+  
+
+  .pflichtfelder {
+    margin-top: 0;
+    transform: translate(-65px, 26px);
+  }
+
+
+
+
+
+
+
+
+.flex-container,
+.flex-container-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.no-padding {
+    padding-top: 0;
+
+}
+
+
+
+.form-area {
+    display: flex;
+}
+
+
+.form-control {
+    display: block;
+    padding: 1.175rem 0rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none !important;
+    border-radius: 0;
+    border: none !important;
+    border-bottom: 1px solid #080808 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.last-row {
+    transform: translate(0px, -89px);
+}
+
+.form-check {
+
+    transform: translateY(49px) !important;
+
+
+}
+
+.form-check-label {
+    font-size: 18px;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+
+}
+
+
+/* Form Contact */ 
+
+
+/* footer */
+.block-footer {
+    background-color: fff;
+    color: black;
+    // padding: 41px;
+    padding: 30px;
+    margin: 0 auto;
+    color: white;
+    // width: 1200px;
+
+    .block-footer-flex {
+        display: flex;
+        // justify-content: space-between;
+        // padding-top: 3rem;
+        // padding-bottom: 1.7rem;
+        margin-top: 4rem;
+        color: black;
+
+        & h6 {
+
+            text-transform: uppercase;
+            font-size: 1em;
+            letter-spacing: 1px;
+            font-family: "Facundo-semibold";
+
+        }
+    }
+
+    .container-footer {
+        width: 1250px;
+        margin: 0 auto;
+    }
+
+    ul li {
+        list-style: none;
+    }
+
+    ul a {
+        color: black !important;
+        text-decoration: none;
+
+    }
+
+    li,
+    ul {
+        padding-left: 0 !important;
+    }
+
+    .footer-logo {
+        width: 200px;
+        object-fit: cover;
+        height: auto;
+        margin-top: 3rem;
+
+    }
+
+    .gruppe p {
+        line-height: 1.7;
+        font-family: "Facundo-regular";
+        font-size: 1em;
+    }
+
+    .block-kontakt {
+        font-size: 1em;
+
+        & p {
+            font-family: "Facundo-black";
+            letter-spacing: 1px;
+            line-height: 1.4;
+
+        }
+
+        & ul {
+            font-family: "Facundo-regular";
+
+            & li {
+                line-height: 1.7;
+
+                & span {
+                    // font-family: "Facundo-black";
+
+                }
+            }
+
+
+        }
+
+        & span {
+            font-family: "Facundo-regular";
+        }
+        .cantact-span span {
+            margin-right: 0.5rem;
+
+        }
+
+
+    }
+
+    .block-Büro p {
+        font-family: "Facundo-regular";
+        font-size: 1em;
+        line-height: 1.7;
+    }
+
+    .block-Rechtliches {
+        font-family: "Facundo-regular";
+        font-size: 1em;
+        line-height: 1.7;
+
+    }
+
+    .flex_grow {
+        flex: 0 0 22%;
+        // flex: 0 0 25%;
+    }
+
+    .space-padding {
+        margin-top: 2rem;
+
+        & .footer-logo {
+            width: 150px;
+
+        }
+    }
+
+    .block-social_media {
+        margin-top: 3rem;
+
+        .footer-icon {
+            width: 50px;
+            height: 68px;
+            display: inline-block;
+            object-fit: cover;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+    .none {
+        visibility: hidden;
+    }
+
+}
+
+
+// datenschutz und impressum
+.datenschutz {
+       font-size: 24px;
+     
+}
+.datenschutz p {
+      font-family: "Facundo-regular";
+     
+    
+}
+
+.datenschutz h2 {
+    font-family: "Facundo-black";
+    margin-bottom: 1rem;
+    
+}
+.datenschutz li {
+    font-family: "Facundo-regular";
+    
+
+}
+.datenschutz strong {
+    font-family: "Facundo-black";
+     display: block;
+
+}
+.datenschutz ul{
+   list-style: none;
+   
+
+}
+.datenschutz a {
+color: blue!important;
+
+}
+.impressum {
+    font-size: 24px;
+     font-family: "Facundo-regular";
+
+
+    & h2 {
+        font-family: "Facundo-black";
+        
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+    
+
+        
+    }
+    & p {
+        font-family: "Facundo-regular";
+    }
+    & ul {
+        list-style: none;
+    }
+    
+
+}
+
+
+/* Media Querie */
+
+
+
+
+@media (max-width: 1440px) {
+    .mietinteresse .form-v10-content {
+     
+        width: 700px;
+    }
+    .image-einladung img {
+    
+        width: 700px;
+    }
+    .mietinteresse textarea {
+       
+        width: 623px;
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 18px;
+        width: 600px;
+    }
+    .formular-newsletter h1 {
+        
+        font-size: 4em;
+
+    }
+    .navbar-brand img {
+    
+        right: 5rem;
+        top: 4.5rem;
+    }
+
+    section {
+        overflow: hidden;
+    }
+    .countdown .container
+    {
+        max-width: 992px;
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+    
+        left: 4.6rem;
+    }
+    .datenschutz {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .bloc-mietinteresse {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 18px;
+        width: 539px;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+       font-size: 14px;
+        width: 539px;
+    }
+    .none-mobile {
+        display: none;
+    }
+    .block-footer .block-footer-flex {
+        
+        margin-top: 1rem;
+    }
+    .block-footer .flex_grow {
+        flex: 0 0 21%;
+    }
+    .flex-form-img {
+       
+        margin-bottom: 4rem;
+    }
+    // p {
+    //    margin-bottom: 0;
+    // }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand img {
+        width: 200px;
+        right: 4rem;
+        top: 3rem;
+    }
+
+    .banner {
+        height: 501px;
+    }
+
+    .container {
+        max-width: 1024px !important;
+    }
+
+    .container-countdown {
+        display: -webkit-box;
+
+    }
+
+    .produktive {
+
+
+
+        height: 540px;
+
+    }
+
+    .none-mobile {
+        display: none;
+    }
+
+    .formular-newsletter h1 {
+
+        font-size: 3em;
+        white-space: nowrap;
+    }
+
+    .formular-newsletter p {
+        font-size: 1em;
+
+    }
+
+    .flex-form-img {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .image-einladung img {
+        height: 515px;
+        width: 900px;
+        object-fit: cover;
+    }
+
+    .mietinteresse .form-v10-content {
+        width: 785px;
+        width: 900px;
+    }
+
+    .form-v10-content .form-detail .form-left .form-group .form-row.form-row-1 {
+        padding: 0;
+    }
+
+    .newsletter .form-row-1 {}
+
+    .form-v10-content .form-detail .newsletter {
+        padding: 0 50px !important;
+    }
+
+    .form-v10-content .form-detail .form-row {
+
+        padding-right: 0 !important;
+    }
+
+    .mietinteresse .form-textaera label {
+        margin-left: 0;
+    }
+    .text_description {
+        padding-left: 68px;
+        padding-right: 68px;
+    }
+    .form-row-la {
+        justify-content: center;
+    }
+
+    .pflichtfelder {
+        margin-top: 0;
+    }
+
+    .mietinteresse textarea {
+
+        margin-left: 0rem;
+        width: 900px;
+    }
+
+    .form-v10-content {
+        margin: 0px 20px;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+        padding: 0;
+        left: 1.2rem;
+    }
+
+
+    input[type='checkbox'] {
+
+        transform: translate(-30px, 24px);
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+
+        width: 900px;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox .checkmark {
+        left: -1px;
+    }
+
+    .block-footer .container-footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+    .block-footer .flex_grow {
+        flex: 0 0 33%;
+    }
+
+    .block-footer .block-footer-flex {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .block-footer {
+     
+        padding-top: 3rem;
+        padding-left: 3.2rem;
+    }
+    .datenschutz {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    section {
+        overflow: hidden;
+    }
+
+    .banner {
+        height: 400px;
+
+    }
+
+    .navbar-brand img {
+        width: 199px;
+        right: 17px;
+        top: 2.5rem;
+
+    }
+
+    .container-countdown {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .tick-label {
+        letter-spacing: 1px;
+        font-size: 28px;
+    }
+
+    .produktive {
+
+        height: 500px;
+    }
+
+
+    .none-mobile {
+        display: none;
+    }
+
+    .bloc-mietinteresse h1 {
+
+        font-size: 3em;
+
+    }
+
+    .bloc-mietinteresse .flex-container-newsletter p {
+        font-size: 1.2em;
+
+    }
+
+    .flex-form-img {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .form-v10-content {
+        margin: 0 20px;
+    }
+
+    .formular-newsletter h1 {
+
+        font-size: 2em;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .formular-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+    }
+
+    .block-footer .block-footer-flex {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 2rem;
+    }
+
+    .formular-newsletter .form-v10-content {
+        margin: 1rem auto;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 18px;
+        width: 670px;
+        font-size: 17px !important;
+    }
+
+    .block-footer {
+        margin-top: 0;
+        padding: 0;
+        margin-left: 4rem;
+
+    }
+
+    .block-footer .footer-logo {
+
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .block-footer .block-social_media {
+        margin-top: 0;
+    }
+    .block-footer .space-padding {
+       margin-top: 0;
+    }
+
+    .mieten 
+        .form-group .form-row.form-row-1,
+        .form-v10-content .form-detail .form-left .form-group .form-row.form-row-2,
+        .form-v10-content .form-detail .form-left .form-group .form-row.form-row-3,
+        .form-v10-content .form-detail .form-left .form-group .form-row.form-row-4,
+        .form-v10-content .form-detail .form-right .form-group .form-row.form-row-1,
+        .form-v10-content .form-d {
+      padding: 0!important;
+    }
+    .mietinteresse .form-textaera label {
+        margin-left: 0;
+    
+    }
+
+    .mietinteresse textarea {
+       
+       margin-left: 0;
+        width: 700px;
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+        padding: 0!important;
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox .checkmark {
+        left: -2px;
+    }
+    .form-row-la {
+        justify-content: center;
+    }
+    .pflichtfelder {
+        margin-top: 0;
+    }
+    .text_description {
+       
+        font-size: 1.2em;
+        
+    }
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+        margin-top: 0;
+        padding: 0;
+        position: relative;
+        top: -1.7rem;
+        left: 0.9rem;
+    }
+    .impressum {
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .datenschutz {
+        font-size: 18px;
+    }
+
+
+
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    section {
+        overflow: hidden;
+    }
+
+    .banner {
+        height: 400px;
+
+    }
+
+    .navbar-brand img {
+        width: 199px;
+        right: 17px;
+        top: 2.5rem;
+
+    }
+
+    .container-countdown {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .tick-label {
+        letter-spacing: 1px;
+        font-size: 28px;
+    }
+
+    .produktive {
+
+        height: 500px;
+    }
+
+
+    .none-mobile {
+        display: none;
+    }
+
+    .bloc-mietinteresse h1 {
+
+        font-size: 3em;
+
+    }
+
+    .bloc-mietinteresse .flex-container-newsletter p {
+        font-size: 1.2em;
+
+    }
+
+    .flex-form-img {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .form-v10-content {
+        margin: 0 20px;
+    }
+
+    .formular-newsletter h1 {
+
+        font-size: 2em;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .formular-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+    }
+
+    .block-footer .block-footer-flex {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .formular-newsletter .form-v10-content {
+        margin: 1rem auto;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 18px;
+        width: 670px;
+        font-size: 13px !important;
+    }
+
+    .block-footer {
+        margin-top: 3rem;
+        padding: 17px;
+
+    }
+
+    .block-footer .footer-logo {
+
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .block-footer .block-social_media {
+        margin-top: 0;
+    }
+
+    .datenschutz {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 575.98px) {
+
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        padding: 0;
+    }
+
+
+    .banner {
+        height: 234px;
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        background-size: contain;
+
+    }
+
+    .navbar-brand img {
+        width: 90px;
+        right: 0.5rem;
+        top: 1.5rem;
+    }
+
+    .countdown h2 {
+
+        font-size: 1.3em;
+        letter-spacing: 2px;
+    }
+
+    .produktive {
+
+        margin-top: 1rem;
+        height: 300px;
+        margin-bottom: 2rem;
+
+    }
+
+    h2 {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .tick-label {
+        padding-top: 1rem;
+    }
+
+    .tick-label {
+        font-size: 10px;
+        letter-spacing: 1px;
+
+    }
+
+
+    .text_description {
+        text-align: left;
+        font-size: 1em;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .none-mobile {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+
+
+    .bloc-mietinteresse h1 {
+
+        font-size: 2em;
+
+    }
+
+    .bloc-mietinteresse .flex-container-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+    .flex-form-img {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .image-einladung img {
+        height: 400px;
+        padding: 2em;
+    }
+
+    .form-v10-content {
+        margin: 0px 20px;
+    }
+
+    .mietinteresse .form-v10-content {
+        width: 400px;
+    }
+
+    .mietinteresse textarea {
+        margin-left: 1.7rem;
+        width: 347px;
+    }
+
+    .mietinteresse .form-textaera label {
+        margin-left: 2rem;
+
+    }
+
+    .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 34px;
+        font-size: 8px;
+
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+        padding: 0;
+        left: 2.8rem;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        // margin-left: 50px;
+        width: 314px;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox .checkmark {
+        left: 28px;
+        top: 3px;
+    }
+
+
+    .container-countdown {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+
+   
+
+    .pflichtfelder {
+        margin-top: 0;
+        transform: translate(-68px, 16px);
+    }
+
+    input[type='checkbox'] {
+
+        transform: translate(-29px, 23px);
+    }
+
+    .form-row-la p {
+        font-size: 10px;
+        transform: translateX(-39px);
+    }
+
+    .formular-newsletter h1 {
+
+        font-size: 1.1em;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+    }
+
+    .formular-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .formular-newsletter .pflichtfelder p {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        transform: translate(-33px, -11px);
+    }
+
+
+
+
+    .flex-container,
+    .flex-container-newsletter {
+
+        padding-top: 2rem;
+    }
+
+    .formular-newsletter .form-v10-content {
+        margin: 2rem auto;
+    }
+
+    .form-row-1 {
+        padding: 0 50px;
+
+    }
+
+    .formular-newsletter {
+        .form-group {
+            padding: 0 15px;
+        }
+
+    }
+
+
+
+
+    .block-footer .block-footer-flex {
+
+        flex-direction: column;
+        padding-top: 0;
+        gap: 1rem;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .block-footer .footer-logo {
+
+        margin-top: 1rem;
+    }
+
+    .block-footer .block-footer-flex h6 {
+
+        font-size: 1.2em;
+
+    }
+
+    .block-footer {
+        padding-top: 3rem;
+        padding: 0;
+        margin: 0 auto;
+        width: 300px;
+
+        & p {
+            margin-bottom: 0;
+        }
+    }
+
+    .block-footer .block-social_media {
+        margin-top: 0;
+    }
+
+    dl,
+    ol,
+    ul {
+        margin-bottom: 0;
+    }
+
+    .block-footer .container-footer {
+
+        padding-top: 2rem;
+    }
+    .block-footer .space-padding {
+       margin-top: 0;
+    }
+
+
+
+
+
+    section {
+        overflow: hidden;
+    }
+
+
+    .wpcf7 form .wpcf7-response-output {
+        
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        padding: 1.2em 1em;
+    }
+
+    .impressum {
+        text-align: center;
+        font-size: 18px;
+        .block {
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        & h2 {
+          margin-top: 1rem;
+           margin-bottom: 1rem;
+        }
+        & a {
+            color: blue!important;
+        }
+    }
+    .datenschutz {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 17px;
+        & a {
+            white-space: pre-wrap;
+            hyphens: auto;
+        }
+        & h2  {
+            margin-top: 1.2rem;
+            // white-space: nowrap;
+        }
+
+
+        
+    }
+
+    ol,
+    ul {
+        padding-left:0;
+    }
+
+    
+    
+
+
+
+
+
+}
+
+
+
+// Contact form 7 custom 
+.wpcf7 form.invalid .wpcf7-response-output {
+    border-color: white!important;
+    border: none!important;
+    color: rgb(172, 18, 18);
+    font-family: "Facundo-regular";
+}
+
+.wpcf7-not-valid-tip {
+   color: rgb(172, 18, 18);
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    font-family: "Facundo-regular"!important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+
+   border-color: white !important;
+   border: none !important;
+   color: rgb(39, 173, 62);
+   font-family: "Facundo-regular";
+}
+
+.page-content1 {
+    .wpcf7 form.invalid .wpcf7-response-output {
+        // display: none;
+    }
+
+}
+
+

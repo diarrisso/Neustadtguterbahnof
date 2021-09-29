@@ -1,0 +1,874 @@
+
+@import 'form';
+
+
+ *,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Facundo-black";
+    src: url("../Fonts/Latinotype-Facundo-Black.otf") format("opentype");
+
+}
+
+@font-face {
+    font-family: "Facundo-regular";
+    src: url("../Fonts/Latinotype\ Facundo-Regular.otf") format("opentype");
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Facundo-semibold";
+    src: url("../Fonts/Latinotype\ Facundo-SemiBold.otf") format("opentype");
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Hokime3-light";
+    src: url("/Fonts/HOKIME3-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Hokime3-Bold";
+    src: url("/Fonts/HOKIME3-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Hokime3";
+    src: url("/Fonts/HOKIME3.otf") format("opentype");
+
+}
+
+
+
+
+// Header bloc
+
+.banner {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    width: 100%;
+
+    & h1 {
+        position: absolute;
+        top: 80%;
+        right: 28%;
+        color: white;
+        font-family: "Mark Pro bold", sans-serif;
+        font-size: 2.8em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+}
+
+.navbar-brand img {
+    width: 279px;
+    position: absolute;
+    right: 15rem;
+    top: 4rem;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+
+
+header {
+    background-color: black;
+    height: 800px;
+
+}
+
+.tick {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8vmin;
+}
+
+.container-countdown {
+    display: flex;
+}
+
+.countdown {
+    margin-top: 2rem;
+
+    & h2 {
+        text-transform: uppercase;
+        font-family: "Facundo-black";
+        letter-spacing: 3px;
+        line-height: 1.4;
+
+    }
+
+}
+
+.tick-group {
+    margin: 0 24px;
+}
+
+.tick-label {
+    font-size: 1.4vmin;
+    text-transform: uppercase;
+    display: block !important;
+    text-align: center;
+    padding: 3.2rem 0 0;
+    font-family: "Facundo-black";
+    letter-spacing: 3px;
+
+}
+
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* section produktiv lebendig */
+
+.produktive {
+    background-color: black;
+    height: 500px;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    height: 1040px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-size: contain;
+    width: 100%;
+
+    &  h2 {
+        position: absolute;
+        font-family: "Latinotype";
+        //   top: 50%;
+        bottom: -5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+
+    // .Bloc-text {
+    //     color: white;
+    //     width: 300px;
+    //     font-family: "Facundo-regular";
+    //     font-size: 1.2em;
+    //     line-height: 1.8;
+
+    //     & .text-top-right,
+    //     .text-bottom,
+    //     .text-left-bottom {
+    //         width: 200px;
+    //     }
+
+    //     & .text-top-right {
+    //         position: absolute;
+    //         right: 8rem;
+    //         padding-top: 6rem;
+    //          width: 213px;
+    //     }
+
+    //     & .text-bottom {
+    //         position: absolute;
+    //         bottom: 11rem;
+    //         right: 8.8rem;
+    //     }
+
+    //     & .text-left-bottom {
+    //         position: absolute;
+    //         bottom: 14rem;
+    //         left: 5rem;
+    //     }
+    //  }
+
+}
+
+/* Texte Bloc */
+
+.text_description {
+    font-family: "Facundo-regular";
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    strong {
+        font-family: "Facundo-black";
+    
+    }
+}
+
+
+
+// mietinteresse 
+.bloc-mietinteresse {
+    h1 {
+        font-family: "Facundo-black";
+        font-size: 6em;
+        text-transform: uppercase;
+        line-height: 1.4;
+        letter-spacing: 3px;
+
+    }
+
+    .flex-container-newsletter {
+        & p {
+            font-size: 2em;
+            text-transform: uppercase;
+            font-family: "Facundo-black";
+            letter-spacing: 3px;
+        }
+    }
+}
+.mietinteresse {
+
+    
+    & .form-v10-content {
+        width: 785px;
+        width: 774px;
+    }
+
+    & textarea {
+        margin-top: 1rem !important;
+        border: 0 !important;
+        border-bottom: 1px solid black !important;
+        border-top: 1px solid black !important;
+        outline: none !important;
+        height: 91px;
+        margin-left: 3.7rem;
+        width: 700px;
+    }
+
+    .form-textaera label {
+        margin-left: 4rem;
+        font-family: "Facundo-semibold";
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .form-v10-content .form-detail .form-checkbox {
+        margin-top: 6px;
+        padding: 0 50px 0 60px; 
+        position: relative;
+    }
+
+    .form-v10-content .form-detail .form-checkbox .checkmark {
+       
+        left: 60px;
+        
+    }
+    .form-v10-content .form-detail .form-checkbox p {
+        margin-left: 18px;
+        width: 700px;
+         
+    }
+    input[type=submit] {
+        border: none!important;
+    }
+
+    .mieten {
+        transform: translateY(24px);
+    }
+
+
+
+}
+
+.flex-form-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+
+.image-einladung img {
+    height: 700px;
+
+
+}
+
+
+//  formular-newsletter
+
+.formular-newsletter {
+
+    background-color: black;
+
+    h1 {
+        color: white;
+        font-family: "Facundo-black";
+        font-size: 5em;
+        text-transform: uppercase;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+  
+    p {
+        font-size: 1.24em;
+        letter-spacing: 3px;
+        font-family: "Facundo-regular";
+        color: white;
+    }
+    .form-row-la {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+       
+    }
+
+    .form-v10-content .form-detail .form-left .register {
+        background:none; 
+        color: #f0f0f0;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        margin-left: 0 ;
+        transform: translateY(22px);
+    }
+    .form-v10-content {
+      
+        margin: 5rem auto;
+        
+    }
+    
+}
+
+
+  
+
+
+
+
+
+.flex-container,
+.flex-container-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem; 
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.no-padding {
+    padding-top: 0;
+
+}
+ 
+
+
+.form-area {
+    display: flex;
+}
+
+
+.form-control {
+    display: block;
+    padding: 1.175rem 0rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none !important;
+    border-radius: 0;
+    border: none !important;
+    border-bottom: 1px solid #080808 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+ }
+
+ .last-row {
+    transform: translate(0px, -89px);
+ }
+
+ .form-check {
+
+    transform: translateY(49px) !important;
+
+
+ }
+
+ .form-check-label {
+    font-size: 18px;
+ }
+
+ .form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+
+ }
+
+
+ /* footer */
+.block-footer {
+    background-color: fff;
+    color: black;
+    padding: 41px;
+    margin: 0 auto;
+    color: white;
+    // width: 1200px;
+
+    .block-footer-flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 1.7rem;
+        color: black;
+        & h6 {
+
+            text-transform: uppercase;
+            font-size: 1em;
+            letter-spacing: 1px;
+            font-family: "Facundo-semibold";
+
+        }
+    }
+
+    .container-footer {
+        width: 1250px;
+        margin: 0 auto;
+    }
+    ul li {
+        list-style: none;
+    }
+
+    ul a {
+        color: black !important;
+        text-decoration: none;
+        
+    }
+
+    li,
+    ul {
+        padding-left: 0 !important;
+    }
+
+    .footer-logo {
+        width: 200px;
+        object-fit: cover;
+        height: auto;
+        margin-top: 3rem;
+
+    }
+    .gruppe p {
+        line-height: 1.7;
+        font-family: "Facundo-regular";
+        font-size: 1em;
+    }
+
+    .block-kontakt   {
+        font-size: 1em;
+        
+        & p {
+        font-family: "Facundo-black";
+
+        }
+
+        & ul  {
+            font-family: "Facundo-regular";
+            & li {
+                line-height: 1.7;
+                & span {
+                    font-family: "Facundo-black";
+                       
+                }
+            }
+
+            
+        }
+        & span {
+            font-family: "Facundo-regular";
+        }
+
+
+    }
+
+    .block-Büro p {
+        font-family: "Facundo-regular";
+        font-size: 1em;
+        line-height: 1.7;
+    }
+
+    .block-Rechtliches {
+        font-family: "Facundo-regular";
+        font-size: 1em;
+        line-height: 1.7;
+
+    }
+    .flex_grow  {
+        flex: 0 0 22%;
+        // flex: 0 0 25%;
+    }
+    .space-padding {
+        margin-top: 2rem;
+    }
+
+    .block-social_media {
+        margin-top: 7rem;
+    
+        .footer-icon {
+        width: 61px;
+        height: 68px;
+        display: inline-block;
+        object-fit: cover;
+
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    section {
+        overflow: hidden;
+    }
+    .banner {
+        height: 400px;
+      
+    }
+    .navbar-brand img {
+        width: 199px;
+        right: 17px;
+        top: 2.5rem;
+      
+    }
+    .container-countdown {
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .tick-label {
+        letter-spacing: 1px;
+        font-size: 28px;
+    }
+
+    .produktive {
+      
+        height: 500px;
+    }
+   
+    .bloc-mietinteresse h1 {
+       
+        font-size: 3em;
+      
+    }
+
+    .bloc-mietinteresse .flex-container-newsletter p {
+        font-size: 1.2em;
+        
+    }
+
+    .flex-form-img {
+       flex-direction: column;
+       margin-bottom: 0;
+    }
+
+    .form-v10-content {
+        margin: 0 20px;
+    }
+    .formular-newsletter h1 {
+      
+        font-size: 2em;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .formular-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+    }
+    .block-footer .block-footer-flex {
+        flex-direction: column;
+    }
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        padding: 0;
+    }
+
+
+    .banner {
+        height: 234px;
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        background-size: contain;
+
+    }
+
+    .navbar-brand img {
+        width: 90px;
+        right: 0.5rem;
+        top: 1.5rem;
+    }
+
+    .countdown h2 {
+       
+       font-size: 1.3em;
+       letter-spacing: 2px;
+    }
+
+    .produktive {
+        
+        margin-top: 1rem;
+        height: 300px;
+        margin-bottom: 2rem;
+       
+    }
+
+    h2 {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .tick-label {
+        padding-top: 1rem;
+    }
+    .tick-label {
+        font-size: 10px;
+        letter-spacing: 1px;
+        
+    }
+
+   
+
+    .bloc-mietinteresse h1 {
+        
+        font-size: 2em;
+        
+    }
+
+    .bloc-mietinteresse .flex-container-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+    .flex-form-img {
+       flex-direction: column;
+       margin-bottom: 0;
+    }
+
+    .image-einladung img {
+        height: 400px;
+        padding: 2em;
+    }
+
+    .form-v10-content {
+        margin: 0px 20px;
+    }
+
+    .mietinteresse .form-v10-content {
+        width: 400px;
+    }
+
+    .mietinteresse textarea {
+        margin-left: 1.7rem;
+        width: 347px;
+    }
+
+    .mietinteresse .form-textaera label {
+        margin-left: 2rem;
+
+    }
+
+    .form-v10-content .form-detail .form-checkbox p {
+        margin-left: 34px;
+        font-size: 8px;
+       
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox {
+      padding: 0;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox p {
+        margin-left: 50px;
+        width: 314px;
+    }
+
+    .mietinteresse .form-v10-content .form-detail .form-checkbox .checkmark {
+        left: 28px;
+    }
+
+
+    .container-countdown {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .form-v10-content .form-detail .form-checkbox input {
+       display: none;
+    }
+    .pflichtfelder {
+        margin-top: 0.8rem;
+    }
+
+    .form-row-la p {
+        font-size: 10px;
+        transform: translateX(-39px);
+    }
+    .formular-newsletter h1 {
+       
+        font-size: 1.1em;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+    }
+    
+    .formular-newsletter p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+       
+    }
+
+    .flex-container,
+    .flex-container-newsletter {
+       
+        padding-top: 2rem;
+    }
+
+    .formular-newsletter .form-v10-content {
+        margin: 2rem auto;
+    }
+
+    .form-row-1 {
+        padding: 0 50px;
+
+    }
+
+    .formular-newsletter {
+       .form-group {
+           padding: 0 15px;
+        }
+
+    }
+
+   
+
+
+    .block-footer .block-footer-flex {
+    
+        flex-direction: column;
+        padding-top: 0;
+        gap: 1rem;
+        padding-bottom: 0;
+    }
+
+    .block-footer .footer-logo {
+      
+        margin-top: 1rem;
+    }
+
+    .block-footer .block-footer-flex h6 {
+      
+        font-size: 1.2em;
+       
+    }
+
+    .block-footer {
+       padding-top: 3rem;
+        padding: 0;
+        margin: 0 auto;
+        width: 300px;
+
+       & p {
+           margin-bottom: 0;
+       }
+    }
+   
+    .block-footer .block-social_media {
+        margin-top: 0;
+    }
+    dl,
+    ol,
+    ul {
+       margin-bottom: 0;
+    }
+    .block-footer .container-footer {
+
+        padding-top: 2rem;
+    }
+
+
+
+
+
+ section {
+    overflow: hidden;
+ }
+ 
+
+
+
+}
+
